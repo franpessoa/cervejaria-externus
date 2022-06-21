@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-auto';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -8,6 +8,9 @@ const config = {
 			$components: "/src/lib/components",
 			$styles: "/src/lib/styles",
 			$scripts: "/src/lib/scripts"
+		},
+		prerender: {
+			default: true,
 		}
 	}
 };
