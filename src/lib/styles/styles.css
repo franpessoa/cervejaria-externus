@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=PT+Mono&display=swap');
+
+.title {
+	font-family: 'Joan', serif;
+	font-size: 72px;
+	position: inherit;
+	line-height: 1em;
+}
+
+.subtitle {
+	font-family: 'Joan', serif;
+	font-size: 40px;
+	color: #121212 !important;
+	position: inherit;
+	font-weight: normal !important;
+}
+
+.cropped_img {
+	padding-top: 30px;
+	max-height: 300px;
+	border-radius: 30%;
+	padding-bottom: 0px;
+}
+
+h1, h2, h3, p, a {
+	text-decoration: none;
+	margin: unset;
+}
