@@ -6,6 +6,10 @@
 
 </script>
 
+<svelte:head>
+	<title>Cervejaria Externus</title>
+</svelte:head>
+
 <img src={img_src} class="cropped_img" alt="Velho oeste">
 <h1 class="title" transition:fly="{{ y: 200, duration: 2000 }}">Cervejaria Externus</h1>
 <h2 class="subtitle">A verdadeira cerveja</h2>
@@ -16,6 +20,7 @@
 		color: rgba(197,146,105,1);
 		text-overflow: ellipsis;
 		word-break: normal;
+		background-color: #121212;
 	}
 
 </style>
