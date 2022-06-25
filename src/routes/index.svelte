@@ -1,16 +1,20 @@
 <script>
 	import "$styles/styles.css"
+	import index_img from "../lib/assets/index_img.avif"
 	import { fly } from 'svelte/transition';
-
-	let img_src = "https://i.pinimg.com/736x/d8/a5/9f/d8a59f9b10f8ef5732561c1030855c3a--devian-art-western-comics.jpg"
-
 </script>
 
 <svelte:head>
 	<title>Cervejaria Externus</title>
 </svelte:head>
 
-<img src={img_src} class="cropped_img" alt="Velho oeste">
+<img 
+	src={index_img} 
+	class="cropped_img" 
+	alt="Velho oeste" 
+	height="90%"
+	width="90%"
+>
 <h1 class="title" transition:fly="{{ y: 200, duration: 2000 }}">Cervejaria Externus</h1>
 <h2 class="subtitle">A verdadeira cerveja</h2>
 

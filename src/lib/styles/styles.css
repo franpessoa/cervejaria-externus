@@ -18,8 +18,10 @@
 .cropped_img {
 	padding-top: 30px;
 	max-height: 300px;
-	border-radius: 30%;
+	border-radius: 20%;
 	padding-bottom: 0px;
+	object-fit: cover;
+	padding-bottom: 15px;
 }
 
 h1, h2, h3, p, a {
