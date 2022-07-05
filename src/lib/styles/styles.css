@@ -17,10 +17,18 @@
 
 .section-title {
 	font-family: 'Joan', serif;
-	font-size: 50px;
+	font-size: 60px;
 	position: inherit;
 	line-height: 1em;
 	color: black;
+}
+
+.section-title-white {
+	font-family: 'Joan', serif;
+	font-size: 60px;
+	position: inherit;
+	line-height: 1em;
+	color: whitesmoke;
 }
 
 .cropped_img {
