@@ -15,12 +15,24 @@
 	font-weight: normal !important;
 }
 
+.section-title {
+	font-family: 'Joan', serif;
+	font-size: 50px;
+	position: inherit;
+	line-height: 1em;
+	color: black;
+}
+
 .cropped_img {
-	padding-top: 30px;
+	padding-top: 50px;
 	border-radius: 30%;
 }
 
-h1, h2, h3, p, a {
+h1,
+h2,
+h3,
+p,
+a {
 	text-decoration: none;
 	margin: unset;
 }

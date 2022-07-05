@@ -5,13 +5,13 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		alias: {
-			$components: "/src/lib/components",
-			$styles: "/src/lib/styles",
-			$scripts: "/src/lib/scripts",
-			$assets: "/src/lib/assets"
+			$components: '/src/lib/components',
+			$styles: '/src/lib/styles',
+			$scripts: '/src/lib/scripts',
+			$assets: '/src/lib/assets'
 		},
 		prerender: {
-			default: true,
+			default: true
 		}
 	}
 };
