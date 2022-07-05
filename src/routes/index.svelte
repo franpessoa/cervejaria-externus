@@ -14,7 +14,7 @@
 </svelte:head>
 
 <main>
-	<img src={index_img} class="cropped_img" alt="Velho oeste" width="40%" />
+	<img src={index_img} class="cropped_img" alt="Velho oeste" width="45%" />
 
 	<h1 class="title">Cervejaria Externus</h1>
 	<h2 class="subtitle">A verdadeira cerveja</h2>
@@ -121,7 +121,7 @@
 		color: #292929 !important;
 		font-weight: normal !important;
 		text-align: center;
-		max-width: 75%;
+		max-width: 90%;
 		justify-content: center;
 	}
 
