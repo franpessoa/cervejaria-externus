@@ -10,15 +10,14 @@
 .subtitle {
 	font-family: 'Joan', serif;
 	font-size: 40px;
-	color: #121212 !important;
+	color: #b4b4b4 !important;
 	position: inherit;
 	font-weight: normal !important;
 }
 
 .cropped_img {
 	padding-top: 30px;
-	max-height: 300px;
-	border-radius: 20%;
+	border-radius: 30%;
 	padding-bottom: 0px;
 	object-fit: cover;
 	padding-bottom: 15px;
