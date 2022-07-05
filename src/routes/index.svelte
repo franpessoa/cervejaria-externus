@@ -14,7 +14,7 @@
 		src={index_img} 
 		class="cropped_img" 
 		alt="Velho oeste" 
-		height="45%"
+		width="40%"
 	>
 	
 	<h1 class="title" transition:fly="{{ y: 200, duration: 2000 }}">Cervejaria Externus</h1>
